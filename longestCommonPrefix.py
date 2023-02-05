@@ -3,7 +3,7 @@
 def longestCommonPrefix(s):
   st=s[0]
   res=''
-  for i in range(st):
+  for i in range(len(st)):
     for j in s:
       if st[i]!=j[i]:
         return res

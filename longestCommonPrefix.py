@@ -1,5 +1,5 @@
 # Time complexity is o(n) and space complexity is o(1)
-
+# xj
 def longestCommonPrefix(s):
   st=s[0]
   res=''

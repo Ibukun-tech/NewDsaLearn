@@ -4,7 +4,7 @@ def lengthOfLastWord(str):
   length=0
   while l>0 and str[l]==' ':
     l-=1
-  while l>0 ND str[l] != ' ':
+  while l>0 and str[l] != ' ':
     l-=1
     length+=1
   
